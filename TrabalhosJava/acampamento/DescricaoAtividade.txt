@@ -1,0 +1,16 @@
+ATIVIDADE 1: Desenvolver uma classe chamada Acampamento com os seguintes atributos:
+nome, equipe, idade. Em seguida, implementar os seguintes métodos:
+a) imprimir(): Procedimento que deve exibir os atributos da classe na tela.
+b) separarGrupo(): Procedimento que deverá verificar as seguintes condições:
+? se a idade estiver entre 6 e 10 anos, atribuir A ao atributo equipe;
+? se a idade estiver entre 11 e 20, atribuir B ao atributo equipe;
+? se a idade for superior a 21 anos, atribuir C ao atributo equipe.
+
+ATIVIDADE 1.1: Desenvolver uma segunda classe Java chamada PrincipalAcampamento
+com a seguinte estrutura:
+a) Criar o método main() conforme o padrão da linguagem Java.
+b) Criar um objeto da classe Acampamento e solicitar ao usuário os valores de seus
+atributos.
+c) Executar o método imprimir() e analisar o que será exibido na tela.
+d) Executar o método separarGrupo().
+e) Executar o método imprimir() novamente e analisar o que será exibido na tela.

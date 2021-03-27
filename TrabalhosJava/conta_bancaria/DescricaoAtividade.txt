@@ -1,0 +1,36 @@
+ATIVIDADE 3: Desenvolver uma classe Java chamada ContaCorrente com os seguintes
+atributos: conta, agencia, saldo e nomeCliente. Implementar os seguintes métodos:
+a) sacar(): Retorna valor 1 caso o saque seja realizado ou 0 se não houver saldo
+suficiente na conta. Deverá receber como parâmetro o valor a ser sacado.
+b) depositar(): Realiza o depósito do valor recebido como parâmetro. Não deve
+retornar valor.
+c) imprimir(): Exibe na tela os atributos da classe. Esse método não retorna nada
+ATIVIDADE 3.1: Desenvolver uma segunda classe Java chamada PrincipalContaCorrente
+com a seguinte estrutura:
+Criar um atributo da classe ContaCorrente para ser usado pelos métodos da classe
+para realizar saques e depósitos. Não se esquecer de executar o operador new para o atributo
+criado.
+Obs.: atenção, pois ao executar o programa só poderemos fazer um saque se já
+tivermos realizado um depósito.
+Métodos:
+a) main() Implementá-lo conforme o padrão da linguagem Java. O método
+main() deverá criar um loop para o usuário escolher entre as opções
+cadastrar, sacar, depositar ou consultar. Se for selecionada a opção sacar,
+executar o método execSaque(). Se for selecionado depositar, executar o
+método execDeposito(). Para a opção consultar, executar o método
+execConsulta(). Para a opção cadastrar, executar o método
+execCadastro().
+b) execSaque() Solicitar ao usuário que digite um valor e executar o método
+sacar() da classe ContaCorrente usando o atributo criado. Testar o
+retorno do método sacar(). Se for retornado 1, exibir “saque realizado”,
+caso contrário, exibir “saque não realizado”.
+
+c) execDeposito() Solicitar ao usuário que digite um valor e executar o
+método depositar() da classe ContaCorrente usando o objeto criado
+anteriormente.
+d) execConsulta() Apresentar os atributos na tela executando o método
+imprimir() da classe ContaCorrente.
+e) execCadastrar() Solicitar que o usuário realize a leitura dos dados via
+teclado e em seguida realize a atribuição dos valores lidos do teclado aos
+atributos do objeto da classe ContaCorrente, criado como atributo dessa
+classe

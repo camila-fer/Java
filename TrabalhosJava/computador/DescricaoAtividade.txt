@@ -1,0 +1,31 @@
+ATIVIDADE 2: Desenvolver uma classe chamada Computador com os seguintes atributos:
+marca, cor, modelo, numeroSerie, preco. Implementar os seguintes métodos:
+a) imprimir(): Procedimento que deve exibir os atributos na tela.
+b) calcularValor(): Procedimento que deverá verificar as seguintes condições: caso a
+marca seja HP, acrescentar 30% ao preço; caso seja IBM, acrescentar 50% ao preço;
+caso seja qualquer outra, manter o preço original.
+c) alterarValor(): Este método recebe um valor como parâmetro. Atribuir este valor
+ao atributo preço, caso o valor do parâmetro recebido seja maior que 0. Caso seja
+maior que 0, o método alterarValor() deverá, além de atribuir o valor ao atributo
+preco, retornar 1. Caso contrário, não atribuir o valor ao atributo preco e retornar 0.
+ATIVIDADE 2.1: Desenvolver uma segunda classe Java chamada PrincipalComputador com
+a seguinte estrutura:
+
+a) Criar o método main() conforme o padrão da linguagem Java.
+b) Criar um objeto da classe Computador e solicitar ao usuário a definição de seus
+atributos.
+c) Executar o método imprimir() e analisar o que será exibido na tela.
+d) Executar o método calcularValor().
+e) Executar o método imprimir() e analisar o que será exibido na tela.
+f) Criar um segundo objeto e atribuir valores a seus atributos. (Solicitar ao usuário).
+g) Executar o método calcularValor() do novo objeto.
+h) Executar o método imprimir() do novo objeto e analisar o que será exibido na tela.
+i) Executar para o novo objeto o método alterarValor() com um valor positivo.
+j) Verificar no método main() o retorno do método alterarValor() e mostrar a
+mensagem de “Alterado” caso este retorne 1, e valor “Não Alterado” caso retorne 0.
+k) Executar para o novo objeto o método alterarValor() com um valor negativo.
+l) Verificar no método main() o retorno do método alterarValor() e mostrar a
+mensagem de “Valor Alterado” caso este retorne 1, e “valor Não Alterado” caso
+retorne 0.
+m) Executar para o novo objeto o método imprimir() e analisar o que será exibido na
+tela.
